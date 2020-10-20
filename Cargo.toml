@@ -1,0 +1,15 @@
+[package]
+name = "qlock"
+version = "0.1.0"
+authors = ["Pierre Colin"]
+edition = "2018"
+description = "Mutual exclusion with first-come-first-served fairness"
+repository = "https://github.com/Pierre-Colin/qlock"
+license-file = "LICENSE"
+keywords = ["concurrency", "mutex", "synchronization", "fairnes", "multithreading"]
+categories = ["asynchronous", "concurrency"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dev-dependencies]
+rand = "0.7"
