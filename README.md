@@ -23,4 +23,4 @@ Without a first-come-first-served fairness, the server may grant access to the l
 * [x] `RwLock`
 * [ ] `Mutex`
 
-Some uses of `unreachable!` may be replaced with `unreachable_unchecked`.
+Some uses of `unreachable!` may be replaced with `unreachable_unchecked`. The `Mutex` protecting the tail of the list should also be replaced with atomic pointers, although this takes extra work for correct memory management.

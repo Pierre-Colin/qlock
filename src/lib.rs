@@ -73,7 +73,7 @@ impl QueueNode {
 /// satisfies [`Send`] to be shared across threads and [`Sync`] to allow concurrent access through
 /// readers. The RAII guards returned from the locking methods implement [`Deref`] (and
 /// [`DerefMut`] for the `write` methods) to allow access to the content of the lock.
-/// 
+///
 /// **NOTE**: This type is available only on architectures that support atomic instructions on
 /// booleans, 8-bit integers and pointers.
 ///
